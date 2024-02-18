@@ -269,7 +269,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='COCO-Dataset')
 
     # opt
-    parser.add_argument('--root', default='/Users/liuhaoran/Desktop/python_work/object-detection/dataset/COCO/',
+    parser.add_argument('--root', default='/Users/songtielei/data/COCO/',
                         help='data root')
     parser.add_argument('-size', '--img_size', default=640, type=int,
                         help='input image size.')

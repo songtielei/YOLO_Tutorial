@@ -296,7 +296,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='VOC-Dataset')
 
     # opt
-    parser.add_argument('--root', default='/Users/liuhaoran/Desktop/python_work/object-detection/dataset/VOCdevkit/',
+    parser.add_argument('--root', default='/Users/songtielei/data/VOCdevkit/',
                         help='data root')
     parser.add_argument('-size', '--img_size', default=640, type=int,
                         help='input image size.')
