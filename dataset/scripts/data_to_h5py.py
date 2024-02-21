@@ -13,7 +13,7 @@ from coco import COCODataset
 parser = argparse.ArgumentParser(description='Cache-Dataset')
 parser.add_argument('-d', '--dataset', default='voc',
                     help='coco, voc, widerface, crowdhuman')
-parser.add_argument('--root', default='/Users/songtielei/data/',
+parser.add_argument('--root', default='/mnt/',
                     help='data root')
 parser.add_argument('-size', '--img_size', default=640, type=int,
                     help='input image size.')

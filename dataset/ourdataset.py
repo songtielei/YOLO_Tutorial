@@ -246,7 +246,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='FreeYOLOv2')
 
     # opt
-    parser.add_argument('--root', default='/Users/songtielei/data/AnimalDataset/',
+    parser.add_argument('--root', default='/mnt/AnimalDataset/',
                         help='data root')
     parser.add_argument('--split', default='train',
                         help='data split')
